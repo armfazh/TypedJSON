@@ -60,6 +60,8 @@
   },
   "files": [
     "lib/**/!(*.tsbuildinfo)",
+    "tsconfig.json",
+    "tsconfig/*",
     "src"
   ]
 }
