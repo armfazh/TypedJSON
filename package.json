@@ -14,7 +14,6 @@
     }
   ],
   "scripts": {
-    "postinstall": "run-s build:*",
     "build": "run-s build:*",
     "build:clean": "rimraf ./lib",
     "build:ts": "tsc --build ./tsconfig/tsconfig.bundle.*.json",
